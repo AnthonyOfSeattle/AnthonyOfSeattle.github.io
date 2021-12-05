@@ -256,7 +256,7 @@ a:hover {
   padding-left: 10%;
 }
 .ex-ol-item::before {
-  padding-left: 15%;
+  padding-left: 37%;
   content: "▹";
   position: absolute;
   left: 0px;
