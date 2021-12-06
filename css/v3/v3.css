@@ -280,38 +280,17 @@ a:hover {
   list-style: none;
 }
 @media only screen and (max-width: 768px) {
-  .edu-item::before {
-    padding: 0%;
-    content: "▹";
-    position: absolute;
-    left: 30px;
-  }
   .edu-item {
     padding-left: 5%;
     list-style: none;
     padding-right: 2%;
   }
-  .edu-img {
-    width: 100%;
-    height: 400px;
-  }
 }
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
-  .edu-item::before {
-    padding: 0%;
-    padding-left: 18%;
-    content: "▹";
-    position: absolute;
-    left: 0px;
-  }
   .edu-item {
     padding-right: 18%;
     padding-left: 18%;
     list-style: none;
-  }
-  .edu-img {
-    width: 100%;
-    height: 400px;
   }
 }
 
