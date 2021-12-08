@@ -43,18 +43,9 @@ params:
   disable_about: false
   descripe_l1_person: "Proteins are the fundamental unit of cellular function and understanding how cells regulate the production and dynamics of these molecules promises to transform our understanding of biology. As datasets and public repositories grow, it is more important than ever to make the information available to researchers. As a data scientist and mass spectrometrist, I work to bridge the gap between raw data and biological insight through fast extensible code and automated analyses."
   descripe_l2_person: "Currently, I am a PhD candidate in the Villén lab at UW Genome Sciences. Here I build tools and repositories to improve the study of protein post translational modifications. Sometimes, I put together smaller analyses of individual datasets, and I am always looking for new interesting questions. Have a look at my projects posted below, and feel free to get in contact if you would like to work together."
-  # skills:
-  #   - name: CSS
-  #     percentage: 90
-  #   - name: Django
-  #     percentage: 85
-  #   - name: Hugo
-  #     percentage: 80
-  #   - name: React JS
-  #     percentage: 70
 
   # Experience
-  disable_experience: false
+  disable_experience: true
   experience:
     - company: "University Of Washington"
       role: "Graduate Research Assistant"
@@ -72,7 +63,7 @@ params:
         - point: Created a frontend design for a product.
 
   # Education
-  disable_education: false
+  disable_education: true
   education:
     - degree: "PhD"
       branch: "Genome Sciences"
@@ -86,13 +77,18 @@ params:
       graduation: "Dec 2015"
 
   # Projects
-  disable_projects: true
+  disable_projects: false
   projects:
-    - name: "Example project without details"
+    - name: "Phosphopedia"
       img: /images/project.jpg
-      githublink: "https://github.com/"
+      githublink: "https://github.com/AnthonyOfSeattle/Phosphopedia"
+      featuredlink: "https://phosphopedia.gs.washington.edu/PhosphoproteomicsAssay/"
+      description: "Centralized repository for building targeted Phosphoproteomics assays."
+    - name: "pyAscore"
+      img: /images/project.jpg
+      githublink: "https://github.com/AnthonyOfSeattle/pyAscore"
       featuredlink: "/"
-      description: "Description of project"
+      description: "A python module for fast post translational modification localization, powered by Cython."
 
   # Achievements
   disable_achievements: true
