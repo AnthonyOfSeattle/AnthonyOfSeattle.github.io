@@ -168,7 +168,7 @@ a:hover {
 }
 @media only screen and (max-width: 767px) {
   .bg-pro {
-    opacity: 0.3;
+    opacity: 0.0;
     position: relative;
   }
   .pro {
@@ -198,9 +198,6 @@ a:hover {
   }
   .pro:hover .pro-btn {
     color: #f9fafc;
-  }
-  .pro:hover .bg-pro {
-    opacity: 0.3;
   }
 }
 
