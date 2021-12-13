@@ -80,7 +80,7 @@ params:
   disable_projects: false
   projects:
     - name: "Phosphopedia"
-      img: /images/project.jpg
+      img: /images/phosphopedia_abstract.png
       githublink: "https://github.com/AnthonyOfSeattle/Phosphopedia"
       featuredlink: "https://phosphopedia.gs.washington.edu/PhosphoproteomicsAssay/"
       description: "Centralized repository for building targeted Phosphoproteomics assays."
