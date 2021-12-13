@@ -21,8 +21,8 @@ params:
   version: 3
   customCSS: false
 
-  favicon: "/images/fav.png"
-  description: "A high performance hugo theme for personal portfolio and blog."
+  favicon: "/images/mapk1.png"
+  description: "Anthony Barente's landing page."
 
   # Navbar Menus
   # customMenus:
