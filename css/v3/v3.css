@@ -138,6 +138,9 @@ a:hover {
 
 /* v3 projects */
 
+.pro {
+  height: 300px;
+}
 .bg-pro {
   padding: 0 !important;
   opacity: 0.9;
