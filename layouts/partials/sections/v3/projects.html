@@ -3,12 +3,12 @@
     <div class="text-dark text-center h3">Projects</div>
     <div class="row justify-content-center pt-2">
       {{ range ( where .Site.RegularPages "Type" "project" ) }}
-      <div class="col-md-10 col-lg-8 col-xl-6 pro m-3 shadow" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+      <div class="col-md-10 col-lg-8 col-xl-4 pro m-3 shadow" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
         <div class="row">
-          <div class="col-md-6 bg-pro">
+          <!--<div class="col-md-6 bg-pro">
             <img src="{{ .Params.img }}" alt="{{ .Title }}" />
-          </div>
-          <div class="col-md-6 content-pro p-3 bg-light">
+	  </div>-->
+          <div class="col-md-12 content-pro p-3 bg-light">
             <div class="content-pro-top">
               <h2>{{ .Title }}</h2>
               <p class="card-text pt-2">{{ .Params.description }}</p>
@@ -31,12 +31,12 @@
         </div>
       </div>
       {{ end }} {{ range .Site.Params.projects }}
-      <div class="col-md-10 col-lg-8 col-xl-6 pro m-3 shadow" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+      <div class="col-md-10 col-lg-8 col-xl-4 pro m-3 shadow" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
         <div class="row">
-          <div class="col-md-6 bg-pro">
+          <!--<div class="col-md-6 bg-pro">
             <img src="{{ .img }}" alt="{{ .name }}" />
-          </div>
-          <div class="col-md-6 content-pro p-3 bg-light">
+	  </div>-->
+          <div class="col-md-12 content-pro p-3 bg-light">
             <div class="content-pro-top">
               <h2>{{ .name }}</h2>
               <p class="card-text pt-2">{{ .description }}</p>
