@@ -83,12 +83,12 @@ params:
       img: /images/phosphopedia_abstract.png
       githublink: "https://github.com/AnthonyOfSeattle/Phosphopedia"
       featuredlink: "https://phosphopedia.gs.washington.edu/PhosphoproteomicsAssay/"
-      description: "Centralized repository for building targeted Phosphoproteomics assays."
+      description: "A web resource for building targeted phosphoproteomic assays which combines large scale reanalysis of public datasets with peptide property prediction. Here, users can query detected peptides in one of the largest phosphopeptide databases, predict where to find peptides which have never been detected before, and optimize assays for phosphopeptides of interest without having to directly analyze them."
     - name: "pyAscore"
       img: /images/project.jpg
       githublink: "https://github.com/AnthonyOfSeattle/pyAscore"
       featuredlink: "/"
-      description: "A python module for fast post translational modification localization, powered by Cython."
+      description: "Determining where a post translational modification occurs on a peptide is a fundamental part of proteomics, and the Ascore algorithm was one of the first tools developed for this purpose. In this python module, I provide fast and easy to use localization scoring which can be integrated into existing pipelines or imported for use in new software."
 
   # Achievements
   disable_achievements: true
